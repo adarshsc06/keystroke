@@ -1,0 +1,44 @@
+{%include 'publicheader.html'%}	
+	<form method="post">
+		<h1 align="center"><u>Register</u></h1>
+		<table align="center">
+			<tr>
+				<th>First Name</th>
+				<td><input type="text" name="fname"></td>
+			</tr>
+			<tr>
+				<th>Last Name</th>
+				<td><input type="text" name="lname"></td>
+			</tr>
+			<tr>
+				<th>Date Of Birth</th>
+				<td><input type="date" name="dob"></td>
+			</tr>
+			<tr>
+				<th>Gender</th>
+				<td> Male<input type="radio" name="gender" value = 'Male' >
+				 Female<input type="radio" name="gender" value = 'Female' ></td>
+			</tr>
+			<tr>
+				<th>Phone Number</th>
+				<td><input type="text" name="phone"></td>
+			</tr>
+			<tr>
+				<th>Email</th>
+				<td><input type="email" name="email"></td>
+			</tr>
+			<tr>
+				<th>User Name</th>
+				<td><input type="text" name="uname"></td>
+			</tr>
+			<tr>
+				<th>Password</th>
+				<td><input type="password" name="pwd"></td>
+			</tr>
+			<tr><td></td></tr>
+			<tr>
+				<td colspan="2" align="center"><input type="submit" name="submit" value="submit"></td>
+			</tr>
+		</table>
+	</form>
+{% include 'footer.html'%}
