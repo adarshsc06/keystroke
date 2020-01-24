@@ -1,7 +1,7 @@
 import mysql.connector
 
 password=""
-database = "keystroke_dynamics"
+database = "project_keystrole"
 def select(q):
 	cnx = mysql.connector.connect(user="root", password=password, host="localhost", database=database)
 	cur = cnx.cursor(dictionary=True)
